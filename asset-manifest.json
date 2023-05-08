@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/project-student-dashboard/static/css/main.82aff171.css",
+    "main.js": "/project-student-dashboard/static/js/main.8cef8add.js",
+    "index.html": "/project-student-dashboard/index.html",
+    "main.82aff171.css.map": "/project-student-dashboard/static/css/main.82aff171.css.map",
+    "main.8cef8add.js.map": "/project-student-dashboard/static/js/main.8cef8add.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82aff171.css",
+    "static/js/main.8cef8add.js"
+  ]
+}
