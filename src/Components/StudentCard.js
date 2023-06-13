@@ -12,7 +12,7 @@ export default function StudentCard({ student }) {
       <p>{student.username}</p>
       <p>Birthday: DOB</p>
       <br></br>
-      {/* <p onClick={showMore}> Show More...</p> */}
+      {}
     </div>
   );
 }
