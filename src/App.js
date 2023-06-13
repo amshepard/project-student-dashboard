@@ -1,15 +1,9 @@
-import Header from "./Components/Header.js";
-import StudentsList from "./Components/StudentsList.js";
-import students from "./data/data.json";
-
+import React, { useState } from "react";
+import CohortClassList from "./Components/CohortList";
+import StudentList from "./Components/StudentList";
+import data from "./data/data.json";
 
 function App() {
-  return (
-    <div>
-      <Header />
-      <StudentsList students={students}/>
-    </div>
-  );
 }
 
 export default App;
