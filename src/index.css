@@ -1,0 +1,99 @@
+.App {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: 
+    "header header" 
+    "aside main";
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 15px;
+    }
+
+    .img {
+    border: 5px solid darkgreen;
+    border-radius: 15px;
+    display: grid;
+    float: left;
+    grid-template-areas: "auto";
+    height: 100px;
+    margin-left: 15px;
+    margin-right: 17px;
+    margin-top: 17px;
+    width: 100px;
+    }
+
+    header {
+        background-color: darkgreen;
+        color: white;
+        grid-area: header;
+        height: 150 px;
+        text-align: center;
+        width: auto;
+    }
+
+    .CohortList {
+        background-color: white;
+        display: grid;
+        grid-area: aside;
+        padding-left: 55px;
+        text-decoration: underline;
+        width: 30%
+    }
+
+    .StudentList {
+        background-color:white;
+        display: grid;
+        grid-area: main;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        padding-right: 35px;
+    }
+
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .StudentCard {
+        border: 1px solid;
+        margin-bottom: 10px;
+    }
+
+    .info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .showmore {
+        display: grid;
+        margin-left: 140px;
+        margin-top: -10px;
+        text-decoration: underline;
+    }
+
+    h4.onTrack {
+        float: right;
+    }
+
+    aside h4:hover {
+        margin-left: 20px;
+    }
+    
+    aside h4 {
+        margin-left: 10px;
+    }
+
+
+    h2.cohort {
+        text-align: left;
+    }
+
+    p {
+        margin-left: 10px;
+    }
+
+    button {
+        background-color: green;
+    }
